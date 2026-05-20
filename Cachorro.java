@@ -2,7 +2,6 @@ package aula13;
 
 public class Cachorro extends Lobo{
 
-
 public void reagir(String frase) {
 	if (frase.equals("Toma comida") || frase.equals("Olá")) {
 		System.out.println("Abanar e Latir");
